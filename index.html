@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="app.module" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="app.module" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="app.module" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="app.module" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>My AngularJS App</title>
+
+  <link rel="stylesheet" href="assets/libs/bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="assets/libs/bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" href="assets/libs/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/libs/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+
+  <script src="assets/libs/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+  
+  <div ng-include="'app/shared/navbar/navbar-view.html'"></div>
+  <div ng-view></div>
+
+  <script src="assets/libs/bower_components/angular/angular.js"></script>
+  <script src="assets/libs/bower_components/angular-route/angular-route.js"></script>
+  <script src="assets/libs/bower_components/angular-cookies/angular-cookies.min.js"></script>
+  <script src="assets/libs/bower_components/angular-resource/angular-resource.min.js"></script>
+  <script src="assets/libs/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="assets/libs/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="assets/libs/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="assets/libs/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/libs/bower_components/firebase/firebase.js"></script>
+  <script src="assets/libs/bower_components/angularfire/dist/angularfire.min.js"></script>
+
+  <script src="app/app.module.js"></script>
+  <script src="app/app.route.js"></script>
+  <script src="app/components/home/home-controller.js"></script>
+  <script src="app/components/blog/blog-controller.js"></script>
+  <script src="app/components/userlogin/userlogin-controller.js"></script>
+  <script src="app/shared/navbar/navbar-controller.js"></script>
+
+</body>
+
+</html>

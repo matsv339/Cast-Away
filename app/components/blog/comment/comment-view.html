@@ -1,0 +1,22 @@
+<div class="comment-feed">
+  <!-- <h3>Comments</h3> -->
+  <!-- <hr> -->
+  <ul class="comment-list">
+    <li ng-repeat="comment in comments">
+        <div class="comment-image">
+          <img ng-src="{{comment.image}}" />
+        </div>
+      <div class="comment-text">
+          <strong>{{comment.name}}</strong><br>
+          <small class="comment-date">{{comment.date}}</small><br>
+          <p class="text-justify">{{comment.content}}</p>
+      </div>
+    </li>
+  </ul>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Add comment" ng-model="content" ng-enter="addComment()">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button" ng-click="addComment()">Add</button>
+    </span>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+{
+  	"comments":[
+  		{"name": "Marie Svensson", "image": "images/myprofile.png", "date": "March 6, 2015", "content": "This is the first comment"},
+		{"name": "Gunnilla Knutsson", "image": "images/myprofile.png", "date": "March 7, 2015", "content": "This is the second comment"}
+	]
+}
+
